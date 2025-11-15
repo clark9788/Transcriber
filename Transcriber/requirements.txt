@@ -1,0 +1,6 @@
+google-cloud-speech
+google-cloud-storage
+sounddevice
+soundfile
+tk
+cryptography
