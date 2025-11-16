@@ -3,8 +3,14 @@ Medical Transcriber Application
 
 QUICK START:
 1. Set up Google Cloud credentials (see Prerequisites section below)
-2. Double-click MedicalTranscriber.exe
-3. Enter patient information and start recording
+2. Double-click MedicalTranscriber.exe in directory where app should be installed
+3. After installation completes, enter "edit environmental variables for your account"
+4. Click on New under user variables.
+5. Enter Variablename: GOOGLE_APPLICATION_CREDENTIALS   
+6. Enter Variable value: directory where storing Google Service Account. Recommended c:\users\<YourUsername>\.credentials\<name_of_file>
+7. Click ok at bottom of User Variable screen. Click ok again on Environment Variables screen
+8. Run cmd.exe and cd to install directory. Run python main.py
+9. Enter patient information and start recording
 
 PREREQUISITES:
 - Windows 10 or 11
